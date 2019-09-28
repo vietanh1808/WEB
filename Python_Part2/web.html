@@ -3,126 +3,51 @@
     <head>
         <link rel="stylesheet" href="/html/styles.css"> 
         <style> 
-        table, th, td {
-            border: 1px solid pink;
+        table,td {
+            border: 1px solid black;
             border-collapse: collapse;
-        }
-        th, td {
             padding: 10px;
-        }
-        td {
-            text-align: left;
-        }
-        ul {
-            list-style-type: none;
-            margin-left: 10%;
-            padding: 0;
-            overflow: hidden;
-        }
-        li {
-            float: left;
-        }
-        li a {
-            display: block;
-            padding: 10px;
-            background-color: green;
-
-            text-decoration: none;
-        }
-        li a:hover {
-            background-color: red;
         }
         </style>
         <title>
             Page Title
         </title>
     </head>
-    <body style="background-color:white;">
-        <h1 style="color: green">Now is a background-color</h1>
-        <h1>My First Heading</h1>
-        <h2>My Second Heading</h2>
-        <p>My first paragraph</p>
-        <p>This is another paragraph</p>
-        <a href="https://www.vietanhnguyen1808.com">This is a link</a>
-        <button>Click to me</button>
-        <p style="color: red">This is a paragraph</p>
-        <p title="I'm a tooltip">This is a paragraph</p>
-        <h1 style="font-size: 10px">Heading 1</h1>
-        <h1>This is heading 1</h1>
-        <hr>
-        <h1>We will have tags STYLE</h1>
-        <p>This is<br>a paragraph<br>with line breaks.</p> 
-        <h1 style="font-family: fantasy;">This is a font-family</h1>
-        <h1 style="font-size: 300%">This is a font-size</h1>
-        <p style="text-align: center">This is a Tag CENTER</p>
-        <hr>
-        <h1 style="text-align: center">No style, No xuong dong</h1>
-        <b>This is bold tag and no </b>
-        <br><strong>This text is str strong</strong>
-        <br><i>This text is italic</i>
-        <br><em>This text is emphasized</em>
-        <hr>
-        <h2>HTML <small>"This is a tag Small in tag h2"</small> Formating</h2>
-        <h2>HTML <mark>"This is a tag Marked in tag h2" </mark>Formatting</h2>
-        <p>My favorite color is <del>blue</del> red. (this is del tag)</p>
-        <p>My favorite <ins>color</ins> is red. (this is ins tag)</p>
-        <p>The <abbr title="World Health Orhanization">WHO</abbr> was founded in 1948.(title tag)</p>
-        <pre>
-            This is the first line PRE
-            This is the second line PRE
-            This is the third line PRE
-        </pre>
-        <address>
-            Written by John Doe.<br>
-            Visit us at: <br>
-            Example.com<br>
-            USA. (address tag)
-        </address>
-        <p><bdo dir="rtl">  This text will be written from right to left </bdo>(bdo tag - convert)</p>
-        <h1 style="color: rgb(182, 107, 182); background-color: red">This is a line</h1>
-        <a href="https: abc.com/html">Hello, This is a link</a>
-        <hr>
-        <table style="width: 100%">
-            <caption style="color: green"><h2>INFORMATION</h2></caption>
-            <tr>
-                <th colspan="2">Name</th>
-                <th rowspan="2">Address</th>
-                <th rowspan="2">Age</th>
-                <th rowspan="2">Phone</th>
-            </tr>
-            <tr>
-                <td>Firstname</td>
-                <td>Lastname</td>
-            </tr>
-            <tr>
-                <td rowspan="2">Jill</td>
-                <td rowspan="2">Smith</td>
-                <td rowspan="2">NewYork</td>
-                <td rowspan="2">35</td>
-                <td rowspan="1">12323465</td>
-            </tr>
-            <tr>
-                <td>12342465</td>
-            </tr>
-            <tr>
-                <td rowspan="2">Eve</td>
-                <td rowspan="2">Jackson</td>
-                <td rowspan="2">England</td>
-                <td rowspan="2">40</td>
-                <td>01294623</td>
-            </tr>
-            <tr>
-                <td>15242465</td>
-            </tr>
-        </table>
-        <hr>
-        <ul>
-            <li><a href="#Home">Home</a></li>
-            <li><a href="#New">New</a></li>
-            <li><a href="#Contact">Contact</a></li>
-            <li><a href="#about">About</a></li>
-        </ul>
-        
+    <body>
+       <table>
+           <tr>
+               <td colspan="4">Name / Address</td>
+               <td colspan="3">Ship to</td>
+           </tr>
+           <tr>
+               <td colspan="2">P.O.No.</td>
+               <td>Terms</td>
+               <td>Rep</td>
+               <td colspan="2">Ship Date</td>
+               <td>Ship Via</td>
+           </tr>
+           <tr style="height: 30px">
+               <td colspan="2"></td>
+               <td></td>
+               <td></td>
+               <td colspan="2"></td>
+               <td></td>
+           </tr>
+           <tr>
+               <td>Item</td>
+               <td colspan="3">Description</td>
+               <td>Ordered</td>
+               <td>Rate</td>
+               <td>Amount</td>
+           </tr>
+           <tr style="height: 30px">
+               <td></td>
+               <td colspan="3"></td>
+               <td></td>
+               <td></td>
+               <td></td>
+           </tr>
+       </table>
     </body>
 </html>
 
