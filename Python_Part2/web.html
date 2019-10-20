@@ -3,10 +3,38 @@
     <head>
         <link rel="stylesheet" href="/html/styles.css"> 
         <style> 
-        table,td {
-            border: 1px solid black;
+        table#bang2, table#bang2 td {
+            border: 2px solid black;
             border-collapse: collapse;
             padding: 10px;
+            table-layout: fixed;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        table#bang1 .trai {
+            border: none;
+            text-align: center; 
+            word-spacing: -3px; 
+            font-size: 11px;
+        }
+        table#bang1 .phai {
+            border: none;
+            text-align: center;
+        }
+        table#bang1 .tren {
+            width: 100px; 
+            padding: 10px; 
+            text-align: center; 
+            border: 2px solid black; 
+            margin-left: 235px
+        }
+        table#bang1 .duoi {
+            width: 50px; 
+            border: 2px solid black; 
+            padding: 20px; 
+            width: 200px; 
+            margin-left: 170px
         }
         </style>
         <title>
@@ -14,40 +42,73 @@
         </title>
     </head>
     <body>
-       <table>
-           <tr>
-               <td colspan="4">Name / Address</td>
-               <td colspan="3">Ship to</td>
-           </tr>
-           <tr>
-               <td colspan="2">P.O.No.</td>
-               <td>Terms</td>
-               <td>Rep</td>
-               <td colspan="2">Ship Date</td>
-               <td>Ship Via</td>
-           </tr>
-           <tr style="height: 30px">
-               <td colspan="2"></td>
-               <td></td>
-               <td></td>
-               <td colspan="2"></td>
-               <td></td>
-           </tr>
-           <tr>
-               <td>Item</td>
-               <td colspan="3">Description</td>
-               <td>Ordered</td>
-               <td>Rate</td>
-               <td>Amount</td>
-           </tr>
-           <tr style="height: 30px">
-               <td></td>
-               <td colspan="3"></td>
-               <td></td>
-               <td></td>
-               <td></td>
-           </tr>
-       </table>
+        <table id="bang1" style="width: 90%; border: none" align="center">
+            <tr>
+                <td class="trai">
+                    <img src="/home/myname/Pictures/Screenshot from 2019-10-01 22-04-48.png" alt="image">
+                    <p>138 Palm Coast,pkwy,NE,Suite112</p>
+                    <p style="margin-top: -11px">Palm Coast,Florida 32137-8241</p>
+                    <p>Phone: (386)986 1830</p>
+                    <p style="margin-top: -11px">Toll Tree: 1-866-986-1830</p>
+                    <p style="margin-top: -11px">Fax: (386)986 1313</p>
+                </td>
+                <td class="phai">
+                    <h1>Sales Order Entry Form</h1>
+                    <p class="tren">Date</p>
+                    <p class="duoi">  </p>
+                </td>
+            </tr> 
+        </table>
+            <table id="bang2" style="width: 90%" align="center">
+                <tr>
+                    <td style="width: 45%" colspan="4">Name / Address</td>
+                    <td style="width: 45%" colspan="3">Ship to</td>
+                </tr>
+                <tr>
+                    <td style="width: 45%; height: 130px;" colspan="4"></td>
+                    <td style="width: 45%; height: 130px;" colspan="3"></td>
+                </tr>
+                <tr>
+                    <td colspan="2">P.O.No.</td>
+                    <td>Terms</td>
+                    <td>Rep</td>
+                    <td colspan="2">Ship Date</td>
+                    <td>Ship Via</td>
+                </tr>
+                <tr style="height: 30px">
+                    <td colspan="2"></td>
+                    <td></td>
+                    <td></td>
+                    <td colspan="2"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Item</td>
+                    <td colspan="3">Description</td>
+                    <td>Ordered</td>
+                    <td>Rate</td>
+                    <td>Amount</td>
+                </tr>
+                <tr style="height: 500px">
+                    <td></td>
+                    <td colspan="3"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td colspan="5" rowspan="2"></td>
+                    <td style="border-right: none; font-size: 35px">Total</td>
+                    <td style="border-left: none; text-align: right">0.00$</td>
+                </tr>
+                <tr></tr>
+            </table>
+            <form style="text-align: right">
+                Signature 
+                <input type="text" name="signature" value="____________________" style="padding: 20px; border: none">
+            </form>
     </body>
 </html>
+
+
 
