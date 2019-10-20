@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h2>Currency</h2>
+        <form action="">
+            from: 
+            <select name="currency_from" id="">
+                {% for currency in currencies %}
+                    <option value="{{ currency }}">{{ currency }}</option>
+                {% endfor %}
+            </select>
+            to:
+            <select name="currency_to" id="">
+                {% for currency in currencies %}
+                    <option value="{{ currency }}">{{ currency }}</option>
+                {% endfor %}
+            </select>
+            <button>Submit</button>
+        </form>
+        {% for currency in currencies %}
+            <option value="{{ currency }}" 
+            {{ break if currency_from==currency }} >{{ currency_from[currency] }}</option>
+        {% endfor %}
+        {% for currency in currencies %}
+            <option value="{{ currency }}" 
+            {{ break if currency_to==currency }} >{{ currency_to[currency] }}</option>
+        {% endfor %}
+    </body>
+</html>

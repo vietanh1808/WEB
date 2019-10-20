@@ -1,0 +1,17 @@
+{
+  "sohoadon": "5",
+  "ngayhoadon": "5",
+  "nguoimua": "5",
+  "tongtientruocthue": 35000,
+  "thue": 0.1,
+  "tongtien": 38500.0,
+  "danhsachhanghoa": [
+    {
+      "stt": "r_bc",
+      "ten": "bap cai",
+      "soluong": 5,
+      "dongia": 7000,
+      "thanhtien": 35000
+    }
+  ]
+}

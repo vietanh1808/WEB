@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            CREATE LOAI HANG HOA
+        </title>
+        <style>
+            .hanghoa {
+                border: 1px solid;
+                border-top: none;
+                border-left: none;
+                border-right: none;
+            }
+            h2 {
+                text-align: center;
+                color: green;
+            }
+            form {
+                width: 23%;
+                border: 1px solid;
+                box-shadow: 0px 0px 1px 0px;
+                border-radius: 10px;
+                height: 300px;
+                margin-left: 37%;
+                background-color: blanchedalmond;
+                padding-left: 34px
+            }
+            p.hanghoa {
+                text-align: left;
+            }
+        </style>
+    </head>
+    <body style="background-color: currentColor;">
+        <h2>BANG TAO LOAI HANG HOA</h2>
+        <form action="/loaihanghoa/create" method="POST">
+            <p>ID</p>
+            <input class="hanghoa" type="text" name="id" placeholder="nhap id ....">
+            <br><br>
+            <p>Ten</p>
+            <input class="hanghoa" type="text" name="name" placeholder="nhap ten ....">
+            <br><br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>

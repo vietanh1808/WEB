@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>
+            UPDATE LOAI HANG HOA
+        </title>
+        <style>
+            input {
+                margin-bottom: 10px;
+            }
+            form {
+                width: 500px;
+                margin-left: 31%;
+                border: 1px solid;
+                border-radius: 10px;
+                padding: 40px;
+                background-color: cornsilk;;
+            }
+        </style>
+    </head>
+    <body style="background-color: darkgrey">
+        <form action="/loaihanghoa/update" method="POST">
+            <h2>BANG SUA DOI LOAI HANG HOA</h2>
+            ID
+            <input type="text" name="id" style="margin-left: 15%">
+            <br>
+            Tên cũ
+            <input type="text" style="margin-left: 8%">
+            <br>
+            Tên mới
+            <input type="text" name="new_name" style="margin-left: 6%">
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>

@@ -1,0 +1,31 @@
+{
+  "sohoadon": "2",
+  "ngayhoadon": "2",
+  "nguoimua": "2",
+  "tongtientruocthue": 125000,
+  "thue": 0.1,
+  "tongtien": 137500.0,
+  "danhsachhanghoa": [
+    {
+      "stt": "1",
+      "ten": "rau muong",
+      "soluong": 3,
+      "dongia": 5000,
+      "thanhtien": 15000
+    },
+    {
+      "stt": "tp_bb",
+      "ten": "bim bim",
+      "soluong": 4,
+      "dongia": 3000,
+      "thanhtien": 12000
+    },
+    {
+      "stt": "3",
+      "ten": "fanta",
+      "soluong": 7,
+      "dongia": 14000,
+      "thanhtien": 98000
+    }
+  ]
+}

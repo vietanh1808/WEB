@@ -1,0 +1,24 @@
+{
+  "sohoadon": "4",
+  "ngayhoadon": "4",
+  "nguoimua": "4",
+  "tongtientruocthue": 195000,
+  "thue": 0.1,
+  "tongtien": 214500.0,
+  "danhsachhanghoa": [
+    {
+      "stt": "1",
+      "ten": "pepsi",
+      "soluong": 5,
+      "dongia": 15000,
+      "thanhtien": 75000
+    },
+    {
+      "stt": "2",
+      "ten": "banh",
+      "soluong": 6,
+      "dongia": 20000,
+      "thanhtien": 120000
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "sohoadon": "6",
+  "ngayhoadon": "13",
+  "nguoimua": "ko biet",
+  "tongtientruocthue": 20000,
+  "thue": 0.1,
+  "tongtien": 22000.0,
+  "danhsachhanghoa": [
+    {
+      "stt": "1",
+      "ten": "rau muong",
+      "soluong": 4,
+      "dongia": 5000,
+      "thanhtien": 20000
+    }
+  ]
+}

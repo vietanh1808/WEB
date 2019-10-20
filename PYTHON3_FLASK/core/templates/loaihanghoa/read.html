@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            READ LOAI HANG HOA
+        </title>
+        <style>
+            table,td {
+                border: 1px solid;
+                border-collapse: collapse;
+                text-align: center;
+            }
+            td {
+                padding: 10px;
+            }
+        </style>
+
+    </head>
+    <body>
+        <table width=60% align="center">
+            <tr>
+                <td colspan="2"><h2>Loai hang hoa</h2></td>
+            </tr>
+            <tr>
+                <td>ID </td>
+                <td>TEN</td>
+            </tr>
+            {% for item in list_items %}
+            <tr>
+                {% if item['id_loaihanghoa'] == id %}
+                    <td>{{ item['id'] }}</td>
+                    <td>{{ item['name'] }}</td>
+                {% endif %}
+            </tr>
+            {% endfor %}
+        </table>
+        <a href="/loaihanghoa/list"><button>Quay lai</button></a>
+    </body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            read loai hang hoa
+        </title>
+        <style>
+            table,td {
+                border: 1px solid;
+                border-collapse: collapse;
+                text-align: center;
+            }
+            td {
+                padding: 10px;
+                text-decoration: none;
+            }
+            button {
+                margin-top: 10px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <table width=60% align="center">
+            <tr>
+                <td colspan="{{len_obj}}"><h2>Danh sach loai hang hoa</h2></td>
+            </tr>
+            <tr>
+                <td>ID: </td>
+                {% for item in list_items %}
+                <td><a href="/loaihanghoa/read?id={{ item['id'] }}">{{ item['id'] }}</a></td>
+                {% endfor %}
+            </tr>
+            <tr>
+                <td>Ten: </td>
+                {% for item in list_items %}
+                <td>{{ item['ten'] }}</td>
+                {% endfor %}
+            </tr>
+        </table>
+        <a href="/loaihanghoa/create"><button style="margin-left: 20%">Tao moi</button></a>
+        <a href="/loaihanghoa/update"><button>Sua</button></a>
+        <a href="/loaihanghoa/delete"><button>Xoa</button></a>
+    </body>
+</html>
